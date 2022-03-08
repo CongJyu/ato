@@ -7,3 +7,18 @@
 ## Introduction
 
 Try to make a cross-platform CLI to plot charts instead of OriginLab.
+
+## Usage
+
+### Make a line chart
+
+Type `line-chart` to plot a 2D line chart.
+
+## Updates
+
+### 2022-03-08
+
+Created the CLI.
+
+- Added line chart function to the CLI.
+- Fixed some problems.
