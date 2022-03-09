@@ -52,7 +52,7 @@ def fitting():
     plt.subplots_adjust(left=0.06, right=0.94, top=0.92, bottom=0.08)
     output_result = polyfit(x, y, 1)
     #  console output message
-    print(y_label + " = " + output_result[0] + " * " + x_label + " + " + output_result[1])
+    print(y_label, " = ", output_result[0], " * ", x_label, " + ", output_result[1])
     #  generate picture
     plt.plot(x, output_result[0] * x + output_result[1], "k-")
     plt.plot(x, y, "b--")
