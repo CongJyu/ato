@@ -10,6 +10,7 @@ def line_chart():
     pic_name = input("Name of picture: ")
     x_label = input("Name of x-axis: ")
     y_label = input("Name of y-axis: ")
+    line_label = input("Name of line: ")
     #  input array: x-axis and y-axis
     arr_x = input(x_label + " data: ")
     arr_y = input(y_label + " data: ")
@@ -23,9 +24,11 @@ def line_chart():
     #  plot settings
     plt.rcParams["figure.figsize"] = (10, 10)
     plt.subplots_adjust(left=0.06, right=0.94, top=0.92, bottom=0.08)
+    plt.plot(x, y, label=line_label)
     plt.xlabel(x_label)
     plt.ylabel(y_label)
-    plt.plot(x, y, label="")
+    plt.title(pic_name)
+    plt.legend()
     plt.show()
     #  messages
     print("Done!")
