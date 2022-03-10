@@ -16,6 +16,13 @@ Type `line-chart` to plot a 2D line chart.
 
 ## Updates
 
+### 3033-03-10
+
+Updated.
+
+- Added legend.
+- Added picture's title.
+
 ### 2022-03-08
 
 Created the CLI.
