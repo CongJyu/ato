@@ -2,25 +2,28 @@ import src.basic
 import src.function
 
 
-#  main process
+# main process
 if __name__ == "__main__":
     print("Welcome use ato!")
     print("Alternative To OriginLab! (?Maybe)")
-    #  waiting for commands
+    # waiting for commands
     while True:
         command = input("ato >>> ")
         if command == "quit":
-            #  this command is used to quit this CLI
+            # this command is used to quit this CLI
             src.basic.quit_cli()
         elif command == "help":
-            #  help and information
+            # help and information
             src.basic.command_help()
         elif command == "line-chart":
-            #  draw/plot a line chart
+            # draw/plot a line chart
             src.function.line_chart()
         elif command == "fitting":
-            #  optimize data
+            # optimize data
             src.function.fitting()
+        elif command == "pie-chart":
+            # draw/plot a pie chart
+            src.function.pie_chart()
         else:
-            #  unknown command
+            # unknown command
             print("ERR! Unknown command. Type 'help' to get details.")

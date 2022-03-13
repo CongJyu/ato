@@ -1,4 +1,4 @@
-#  help information
+# help information
 def command_help():
     print("[------ ato Help ------]")
     print("Basic Commands:")
@@ -9,7 +9,7 @@ def command_help():
     print("    'fitting' ---- Fitting tool.")
 
 
-#  quit this cli
+# quit this cli
 def quit_cli():
     print("Thank you for using ato! Bye!")
     quit(0)
