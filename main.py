@@ -5,7 +5,7 @@ import src.function
 #  main process
 if __name__ == "__main__":
     print("Welcome use ato!")
-    print("Alternative To OriginLab!")
+    print("Alternative To OriginLab! (?Maybe)")
     #  waiting for commands
     while True:
         command = input("ato >>> ")
