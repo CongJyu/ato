@@ -16,6 +16,14 @@ Type `line-chart` to plot a 2D line chart.
 
 ## Updates
 
+### 2022-03-14
+
+Updated.
+
+- Now you can input and customize your data labels.
+
+TODO: Explode of the pie chart still need to be fixed.
+
 ### 2022-03-13
 
 New function.
