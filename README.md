@@ -8,21 +8,39 @@
 
 Try to make a cross-platform CLI to plot charts instead of OriginLab.
 
+## Requirements
+
+```
+numpy
+pandas
+matplotlib
+```
+
 ## Usage
 
-### Make a line chart
-
-Type `line-chart` to plot a 2D line chart.
+```
+Basic Commands:
+    'quit' ---- Quit this CLI.
+    'help' ---- Show this message.
+Plotting Commands:
+    'line-chart' ---- Plot a line chart.
+    'fitting' ---- Fitting tool.
+    'pie-chart' ---- Plot a pie chart.
+```
 
 ## Updates
+
+### 2022-03-15
+
+Fixed some problems.
+
+- Now it can judge your data.
 
 ### 2022-03-14
 
 Updated.
 
 - Now you can input and customize your data labels.
-
-TODO: Explode of the pie chart still need to be fixed.
 
 ### 2022-03-13
 
@@ -43,3 +61,7 @@ Created the CLI.
 
 - Added line chart function to the CLI.
 - Fixed some problems.
+
+## TODO
+
+TODO #1: Explode of the pie chart still need to be fixed.

@@ -26,4 +26,4 @@ if __name__ == "__main__":
             src.function.pie_chart()
         else:
             # unknown command
-            print("ERR! Unknown command. Type 'help' to get details.")
+            src.basic.unknown_command()
