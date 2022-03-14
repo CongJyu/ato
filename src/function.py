@@ -65,12 +65,19 @@ def fitting():
 
 
 # draw/plot a pie chart
+# TODO: The explode of the pie chart, input methods.
 def pie_chart():
-    plt.figure(figsize=(7.5, 5), dpi=80)  # adjust
-    labels = ["storm", "ice", "wind", "snow", "sight", "cloud"]
-    size = [24.24, 17.17, 7.7, 8.8, 8.9, 9.7]
-    colors = ["red", "yellowgreen", "lightskyblue", "yellow", "purple", "pink"]
-    explode = (0.01, 0.01, 0.01, 0.01, 0.01, 0.01)
+    title = input("Input title: ")
+    # labels and size input
+    input_label = input("Input labels: ").split()
+    input_size = input("Input size: ").split()
+    input_colors = input("Input colors: ").split()
+    # input_explode = input("Input explode: ")
+    labels = input_label
+    size = input_size
+    colors = input_colors
+    # explode = (float(count) for count in input_explode.split())
+    explode = (0.01, 0.01, 0.05)
     plt.pie(
         size,
         explode=explode,
@@ -83,6 +90,6 @@ def pie_chart():
         pctdistance=0.6
     )
     plt.axis("equal")
-    plt.title("Title")  # this can be changed
-    plt.legend()
+    plt.title(title)  # show title
+    plt.legend()  # show legend
     plt.show()
