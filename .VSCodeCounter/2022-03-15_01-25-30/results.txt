@@ -1,0 +1,39 @@
+Date : 2022-03-15 01:25:30
+Directory : /Users/rainchen/CodingSpace/ato
+Total : 10 files,  208 codes, 39 comments, 42 blanks, all 289 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Python   |          3 |        127 |         39 |         15 |        181 |
+| Markdown |          1 |         41 |          0 |         27 |         68 |
+| XML      |          6 |         40 |          0 |          0 |         40 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                           | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                              |         10 |        208 |         39 |         42 |        289 |
+| .idea                                                                          |          6 |         40 |          0 |          0 |         40 |
+| .idea/inspectionProfiles                                                       |          1 |          6 |          0 |          0 |          6 |
+| src                                                                            |          2 |        108 |         31 |         12 |        151 |
++--------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                       | language | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /Users/rainchen/CodingSpace/ato/.idea/ato.iml                                  | XML      |         10 |          0 |          0 |         10 |
+| /Users/rainchen/CodingSpace/ato/.idea/inspectionProfiles/profiles_settings.xml | XML      |          6 |          0 |          0 |          6 |
+| /Users/rainchen/CodingSpace/ato/.idea/misc.xml                                 | XML      |          4 |          0 |          0 |          4 |
+| /Users/rainchen/CodingSpace/ato/.idea/modules.xml                              | XML      |          8 |          0 |          0 |          8 |
+| /Users/rainchen/CodingSpace/ato/.idea/other.xml                                | XML      |          6 |          0 |          0 |          6 |
+| /Users/rainchen/CodingSpace/ato/.idea/vcs.xml                                  | XML      |          6 |          0 |          0 |          6 |
+| /Users/rainchen/CodingSpace/ato/README.md                                      | Markdown |         41 |          0 |         27 |         68 |
+| /Users/rainchen/CodingSpace/ato/main.py                                        | Python   |         19 |          8 |          3 |         30 |
+| /Users/rainchen/CodingSpace/ato/src/basic.py                                   | Python   |         14 |          3 |          5 |         22 |
+| /Users/rainchen/CodingSpace/ato/src/function.py                                | Python   |         94 |         28 |          7 |        129 |
+| Total                                                                          |          |        208 |         39 |         42 |        289 |
++--------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
