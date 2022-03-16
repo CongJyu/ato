@@ -30,6 +30,13 @@ Plotting Commands:
 
 ## Updates
 
+### 2022-03-16
+
+Released a package.
+
+- Created a `.gitignore` file.
+- Build a command line tool.
+
 ### 2022-03-15
 
 Fixed some problems.
