@@ -24,6 +24,9 @@ if __name__ == "__main__":
         elif command == "pie-chart":
             # draw/plot a pie chart
             src.function.pie_chart()
+        elif command == "average":
+            # find/calculate average
+            src.function.average()
         else:
             # unknown command
             src.basic.unknown_command()

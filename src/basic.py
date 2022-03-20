@@ -8,6 +8,7 @@ def command_help():
     print("    'line-chart' ---- Plot a line chart.")
     print("    'fitting' ---- Fitting tool.")
     print("    'pie-chart' ---- Plot a pie chart.")
+    print("    'average' ---- Calculate average.")
 
 
 # quit this cli

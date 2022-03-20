@@ -126,3 +126,12 @@ def pie_chart():
         plt.title(title)  # show title
         plt.legend()  # show legend
         plt.show()
+
+
+# find average
+def average():
+    print("Calculate average.")
+    data = input("Input your data: ")
+    input_data = [float(count) for count in data.split()]
+    ave = (1 / len(input_data)) * npy.sum(input_data)
+    print("Average is: ", ave)
