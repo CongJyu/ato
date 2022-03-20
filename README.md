@@ -10,6 +10,8 @@ Try to make a cross-platform CLI to plot charts instead of OriginLab.
 
 ## Requirements
 
+Before you build this CLI, you need to install the following requirements.
+
 ```
 numpy
 pandas
@@ -26,9 +28,17 @@ Plotting Commands:
     'line-chart' ---- Plot a line chart.
     'fitting' ---- Fitting tool.
     'pie-chart' ---- Plot a pie chart.
+    'average' ---- Calculate average.
 ```
 
 ## Updates
+
+### 2022-03-21
+
+Add function.
+
+- Calculate a set of data's average.
+- Fixed some problems.
 
 ### 2022-03-16
 
