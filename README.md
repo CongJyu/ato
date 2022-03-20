@@ -81,4 +81,4 @@ Created the CLI.
 
 ## TODO
 
-TODO #1: Explode of the pie chart still need to be fixed.
+TODO 01: Explode of the pie chart still need to be fixed.
