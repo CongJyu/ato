@@ -135,3 +135,11 @@ def average():
     input_data = [float(count) for count in data.split()]
     ave = (1 / len(input_data)) * npy.sum(input_data)
     print("Average is: ", ave)
+
+
+def standard_deviation():
+    print("Calculate standard deviation.")
+    data = input("Input your data: ")
+    input_data = [float(count) for count in data.split()]
+    standard_deviation_output = npy.std(input_data)
+    print("Standard deviation: ", standard_deviation_output)

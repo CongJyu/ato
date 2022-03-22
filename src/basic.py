@@ -9,6 +9,7 @@ def command_help():
     print("    'fitting' ---- Fitting tool.")
     print("    'pie-chart' ---- Plot a pie chart.")
     print("    'average' ---- Calculate average.")
+    print("    'standard-deviation' ---- Calculate standard deviation.")
 
 
 # quit this cli

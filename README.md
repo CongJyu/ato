@@ -29,6 +29,7 @@ Plotting Commands:
     'fitting' ---- Fitting tool.
     'pie-chart' ---- Plot a pie chart.
     'average' ---- Calculate average.
+    'standard-deviation' ---- Calculate standard deviation.
 ```
 
 ## Updates

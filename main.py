@@ -27,6 +27,9 @@ if __name__ == "__main__":
         elif command == "average":
             # find/calculate average
             src.function.average()
+        elif command == "standard-deviation":
+            # calculate standard deviation
+            src.function.standard_deviation()
         else:
             # unknown command
             src.basic.unknown_command()
