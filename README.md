@@ -16,6 +16,15 @@ Before you build this CLI, you need to install the following requirements.
 numpy
 pandas
 matplotlib
+pyinstaller
+```
+
+## Build
+
+Build from source code.
+
+```shell
+pyinstaller -F main.py
 ```
 
 ## Usage
@@ -33,6 +42,12 @@ Plotting Commands:
 ```
 
 ## Updates
+
+### 2022-03-22
+
+Add function.
+
+- Calculate a set of data's standard deviation.
 
 ### 2022-03-21
 
