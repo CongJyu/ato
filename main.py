@@ -2,8 +2,7 @@ import src.basic
 import src.function
 
 
-# main process
-if __name__ == "__main__":
+def main():
     print("Welcome use ato!")
     print("Alternative To OriginLab! (?Maybe)")
     # waiting for commands
@@ -33,3 +32,8 @@ if __name__ == "__main__":
         else:
             # unknown command
             src.basic.unknown_command()
+
+
+# main process
+if __name__ == "__main__":
+    main()
