@@ -16,6 +16,9 @@ def main():
         elif command == "help":
             # help and information
             src.basic.command_help()
+        elif command == "version":
+            # show version information
+            src.basic.version()
         elif command == "line-chart":
             # draw/plot a line chart
             src.function.line_chart()

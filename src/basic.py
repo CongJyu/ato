@@ -14,6 +14,12 @@ def command_help():
     print("    'standard-deviation' ---- Calculate standard deviation.")
 
 
+# show version information
+def version():
+    print("[------ ato Version ------]")
+    print("Version: 1.1.0")
+
+
 # quit this cli
 def quit_cli():
     print("Thank you for using ato! Bye!")
