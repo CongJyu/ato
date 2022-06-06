@@ -6,6 +6,7 @@ def command_help():
     print("Basic Commands:")
     print("    'quit' ---- Quit this CLI.")
     print("    'help' ---- Show this message.")
+    print("    'version' ---- Show version information.")
     print("Plotting Commands:")
     print("    'line-chart' ---- Plot a line chart.")
     print("    'fitting' ---- Fitting tool.")

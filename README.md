@@ -33,6 +33,7 @@ pyinstaller -F main.py
 Basic Commands:
     'quit' ---- Quit this CLI.
     'help' ---- Show this message.
+    'version' ---- Show version.
 Plotting Commands:
     'line-chart' ---- Plot a line chart.
     'fitting' ---- Fitting tool.
