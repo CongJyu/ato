@@ -43,6 +43,10 @@ Plotting Commands:
 
 ## Updates
 
+### 2022-06-06
+
+Adjust encoding settings.
+
 ### 2022-03-22
 
 Add function.
