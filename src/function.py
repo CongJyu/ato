@@ -1,3 +1,5 @@
+# encoding utf-8
+
 import numpy as npy
 import matplotlib.pyplot as plt
 from numpy import polyfit

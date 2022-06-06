@@ -1,3 +1,5 @@
+# encoding utf-8
+
 import src.basic
 import src.function
 

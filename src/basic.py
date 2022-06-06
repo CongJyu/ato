@@ -1,3 +1,5 @@
+# encoding utf-8
+
 # help information
 def command_help():
     print("[------ ato Help ------]")
