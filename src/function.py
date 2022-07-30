@@ -8,11 +8,13 @@ from numpy import polyfit
 # draw/plot a line chart
 def line_chart():
     print("Plot a line chart!")
+
     # basic settings
     pic_name = input("Name of picture: ")
     x_label = input("Name of x-axis: ")
     y_label = input("Name of y-axis: ")
     line_label = input("Name of line: ")
+
     # input array: x-axis and y-axis
     arr_x = input(x_label + " data: ")
     arr_y = input(y_label + " data: ")
@@ -42,10 +44,12 @@ def line_chart():
 # fitting
 def fitting():
     print("Optimize and plot a chart!")
+
     # basic settings
     pic_name = input("Name of picture: ")
     x_label = input("Name of x-axis: ")
     y_label = input("Name of y-axis: ")
+
     # input array: x-axis and y-axis
     arr_x = input(x_label + " data: ")
     arr_y = input(y_label + " data: ")
@@ -53,6 +57,7 @@ def fitting():
     in_y = [float(count) for count in arr_y.split()]
     x = npy.array(in_x)
     y = npy.array(in_y)
+
     # judge the length of x-axis and y-axis
     if len(x) != len(y):
         # not equal
@@ -79,10 +84,12 @@ def fitting():
 # TODO: The explode of the pie chart, input methods.
 def pie_chart():
     title = input("Input title: ")
+
     # labels and size input
     input_label = input("Input labels: ").split()
     input_size = input("Input size: ").split()
     input_colors = input("Input colors: ").split()
+
     # set the shadow of the pie chart
     while True:
         show_shadow = input("Show shadow?(0 or 1): ")
@@ -95,12 +102,15 @@ def pie_chart():
         else:
             # unexpected inputs
             print("You can only enter 0 or 1.")
+
     # input_explode = input("Input explode: ")
     labels = input_label
     size = input_size
     colors = input_colors
+
     # explode = (float(count) for count in input_explode.split())
     explode = (0.01, 0.01, 0.05)
+
     # judge the length of each arg
     if len(labels) != len(size):
         # labels are not equal to size
