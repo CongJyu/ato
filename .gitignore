@@ -1,4 +1,4 @@
-.VSCodeCounter
+/venv
 /build/
 /dist/
 /main.spec
